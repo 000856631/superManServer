@@ -1,0 +1,29 @@
+{
+  "LNG_LAT_DISTRICT_UNIT": 85275.2301238056,
+  "districts": [
+    {
+      "name": "水电厂",
+      "lng": "113.372786",
+      "lat": "23.125490",
+      "radius": 1000,
+      "marks": {
+        "count": 5
+      },
+      "onlineItemCount": 10,
+      "items": [
+        {
+          "id": 1,
+          "name": "水晶1",
+          "count": 50,
+          "maxInOneMark":1
+        },
+        {
+          "id": 2,
+          "name": "水晶2",
+          "count": 100,
+          "maxInOneMark":1
+        }
+      ]
+    }
+  ]
+}
