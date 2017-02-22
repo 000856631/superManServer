@@ -8,7 +8,7 @@ WORKDIR /myproject
 # ENV REDIS_PORT_6379_TCP_PORT 6379
 # ENV REDIS_PASSWORD ""
 
-COPY ./project /myproject
+COPY /project /myproject
 
 # COPY package.json /myproject
 RUN npm install
