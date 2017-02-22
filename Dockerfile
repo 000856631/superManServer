@@ -10,7 +10,7 @@ WORKDIR /myproject
 
 COPY /project /myproject
 
-# COPY package.json /myproject
+COPY package.json /myproject
 RUN npm install
 COPY . /myproject
 # COPY ./env_init.sh /
