@@ -19,4 +19,4 @@ COPY . /myproject
 
 EXPOSE 8088
 
-CMD ["node","testRedis.js"]
+CMD ["node","test.js"]
